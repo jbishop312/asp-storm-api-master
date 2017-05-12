@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{7FB19B2E-A7D4-4CF2-A431-5E39CDBA01F3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>asp_storm_api_master_vs</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="HelloWorldApi\Areas\HelpPage\HelpPage.css" />
+    <Content Include="HelloWorldApi\Content\bootstrap.css" />
+    <Content Include="HelloWorldApi\Content\bootstrap.min.css" />
+    <Content Include="HelloWorldApi\Content\Site.css" />
+    <Content Include="HelloWorldApi\favicon.ico" />
+    <Content Include="HelloWorldApi\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="HelloWorldApi\Global.asax" />
+    <Content Include="HelloWorldApi\HelloWorldApi.csproj" />
+    <Content Include="HelloWorldApi\Scripts\bootstrap.js" />
+    <Content Include="HelloWorldApi\Scripts\bootstrap.min.js" />
+    <Content Include="HelloWorldApi\Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="HelloWorldApi\Scripts\jquery-1.10.2.js" />
+    <Content Include="HelloWorldApi\Scripts\jquery-1.10.2.min.js" />
+    <Content Include="HelloWorldApi\Scripts\modernizr-2.6.2.js" />
+    <Content Include="HelloWorldApi\Scripts\respond.js" />
+    <Content Include="HelloWorldApi\Scripts\respond.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HelloWorldApi\ApplicationInsights.config" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\Api.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\Index.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\Web.config" />
+    <None Include="HelloWorldApi\Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <None Include="HelloWorldApi\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="HelloWorldApi\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="HelloWorldApi\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="HelloWorldApi\packages.config" />
+    <None Include="HelloWorldApi\Scripts\jquery-1.10.2.min.map" />
+    <None Include="HelloWorldApi\Views\Home\Index.cshtml" />
+    <None Include="HelloWorldApi\Views\Shared\Error.cshtml" />
+    <None Include="HelloWorldApi\Views\Shared\_Layout.cshtml" />
+    <None Include="HelloWorldApi\Views\Web.config" />
+    <None Include="HelloWorldApi\Views\_ViewStart.cshtml" />
+    <None Include="HelloWorldApi\Web.config" />
+    <None Include="HelloWorldApi\Web.Debug.config" />
+    <None Include="HelloWorldApi\Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HelloWorldApi\App_Start\BundleConfig.cs" />
+    <Compile Include="HelloWorldApi\App_Start\FilterConfig.cs" />
+    <Compile Include="HelloWorldApi\App_Start\RouteConfig.cs" />
+    <Compile Include="HelloWorldApi\App_Start\WebApiConfig.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ApiDescriptionExtensions.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\App_Start\HelpPageConfig.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\Controllers\HelpController.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\HelpPageAreaRegistration.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\ModelDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\ParameterDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\Models\HelpPageApiModel.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\SampleGeneration\ImageSample.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\SampleGeneration\TextSample.cs" />
+    <Compile Include="HelloWorldApi\Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="HelloWorldApi\Controllers\HomeController.cs" />
+    <Compile Include="HelloWorldApi\Controllers\ValuesController.cs" />
+    <Compile Include="HelloWorldApi\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HelloWorldApi\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
